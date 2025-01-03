@@ -80,32 +80,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Biologisk nedbrytbar voks",
                 "Sensorer for trykk og lekkasje"
             ],
-            folder: "../projects/Flawax/img/",
+            folder: "../projects/flawax/img/",
             images: ["show1.JPG", "show2.jpg", "show3.jpg", "show4.jpg", "tekteg2.jpg", "tektegn.jpg"]
         },
         {
             title: "Tesla Coil med SSTC Driver",
             description: "En Tesla Coil som genererer høyspenningseffekter ved hjelp av en SSTC-driver.",
-            img: "../projects/TeslaCoil/img/coil1.jpg",
+            img: "../projects/teslacoil/img/coil1.jpg",
             details: [
                 "MC34152P driver IC",
                 "NE555 timer IC",
                 "L7812CV spenningsregulator",
                 "Håndlaget sekundærspole"
             ],
-            folder: "../projects/TeslaCoil/img/",
+            folder: "../projects/teslacoil/img/",
             images: ["coil1.jpg", "coil2.jpg", "coil3.jpg", "coil4.jpg", "coil5.jpg"]
         },
         {
             title: "Mini Tesla Coil Audio",
             description: "En mini Tesla Coil som spiller av lyd ved hjelp av plasma.",
-            img: "../projects/MiniTeslaCoilAudio/img/tesaud1.jpg",
+            img: "../projects/miniteslacoilaudio/img/tesaud1.jpg",
             details: [
                 "MJB41CT4G Transistor",
                 "KNB2910A MOSFET",
                 "Håndlaget sekundærspole"
             ],
-            folder: "../projects/MiniTeslaCoilAudio/img/",
+            folder: "../projects/miniteslacoilaudio/img/",
             images: ["tesaud1.jpg", "tesaud2.jpg", "tesaud3.jpg", "tesaud4.jpg", "tesaud5.jpg"]
         }
     ];
