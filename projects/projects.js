@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Flawax Protection System",
             description: "Et innovativt system for å beskytte rør- og ventilskjøter mot korrosjon.",
-            img: "../projects/Flawax/img/show1.JPG",
+            img: "../projects/flawax/img/show1.JPG",
             details: [
                 "Spesialdesignede bokser for flenser",
                 "Biologisk nedbrytbar voks",
