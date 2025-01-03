@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Arvid J. Jacobsen</title>
+    <!-- Kobling til felles CSS og ikonbibliotek for sosiale medier -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Hovedheader med logo, tittel og navigasjonsmeny -->
+    <header>
+        <div class="header-content">
+            <a href="../index.html">
+                <img src="../img/nkey.jpg" alt="Logo" class="logo">
+            </a>
+            <h1 class="header-title">Mine kontakter</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Hjem</a></li>
+                    <li><a href="../projects/projects.html">Prosjekter</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hovedinnhold: Sosiale medier seksjon -->
+    <main>
+        <section class="social-media">
+            <h1>Følg meg på sosiale medier</h1>
+            <ul class="social-links">
+                <!-- Individuelle sosiale medier lenker -->
+                <li><a href="https://www.facebook.com/profile.php?id=100087540615324" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+                <li><a href="https://github.com/ArvidKodehode" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-snapchat"></i> Snapchat</a></li>
+                <li><a href="https://www.tiktok.com/@alda197408" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-pinterest"></i> Pinterest</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-discord"></i> Discord (arvid1974)</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-telegram"></i> Telegram</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                <!-- Knapp for å åpne kontaktskjema -->
+                <li><a href="#" id="openFastmail"><i class="fas fa-envelope"></i> Fastmail</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Popup for kontaktskjema -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Send en melding</h2>
+            <form id="contactForm">
+                <label for="name">Navn:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Melding:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Arvid J. Jacobsen. Alle rettigheter forbeholdt.</p>
+    </footer>
+
+    <!-- Kobling til JavaScript -->
+    <script src="contact.js"></script>
+</body>
+</html>
