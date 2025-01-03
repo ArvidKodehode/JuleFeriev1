@@ -1,0 +1,23 @@
+body {
+	font-family: verdana;
+	font-size: 11px;
+}
+td {
+	font-family: verdana;
+	font-size: 11px;
+}
+
+.MenuItem {
+	text-decoration: none;
+	color: #3232B3;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.NewsHeading {
+	text-decoration: none;
+	color: #3232B3;
+	font-size: 13px;
+	font-weight: bold;
+
+}
